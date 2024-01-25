@@ -44,6 +44,10 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
+  - title                                 : I love this app!! It’s so fun to keep track of everything!! 🤩
+    description                           : Michelle S.
+    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+
   - title                                 : I used the app this morning to see if I had a color that matched the one used in the tutorial I was watching. Thankfully I had one that was almost perfect. So it’s a very handy app. 😊 
     description                           : Barbara H.
     fontawesome_icon_name                 : 
@@ -59,9 +63,9 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/header.png                  # Replace with alternative image path or image URL.
+cover_image                               : assets/header.jpg                  # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.7
+cover_overlay_transparency                : 0.3
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
