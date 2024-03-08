@@ -1,10 +1,12 @@
 # SEO content
 
 title : The Palette Keeper App
-tagline: Simplify your watercolor paint and palette management  
-description: The Palette Keeper app is the best way to search for, learn about, and organize watercolor paints. 
+tagline: Search for, learn about, and organize professional watercolor paints  
+description: Search thousands of professional watercolor paints and compare based on paint properties like transparency, granulation and more. Mirror your paint palette in the app, so you never forget a paint. Bring your watercolor painting ideas to life with Palette Keeper!
 url: https://www.palettekeeper.com
 logo: assets/appicon.png
+facebook:
+  username: 61555513576494
 
 
 # Page content
@@ -24,7 +26,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Palette Keeper                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Simplify your watercolor paint and palette management
+app_description                           : Search for, learn about, and organize professional watercolor paints
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
