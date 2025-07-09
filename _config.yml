@@ -1,9 +1,9 @@
 # SEO content
 
-title : The Palette Keeper App
-tagline: Search for, learn about, and organize professional watercolor paints  
-description: Search thousands of professional watercolor paints and compare based on paint properties like transparency, granulation and more. Mirror your paint palette in the app, so you never forget a paint. Bring your watercolor painting ideas to life with Palette Keeper!
-url: https://www.palettekeeper.com
+title : Smarty Paints! - The Watercolor App
+tagline: Real watercolor paints, simplified - track what you own, find close-enough dupes, and finally remember which blue is *that* blue  
+description: Browse 3000+ paints, find dupes across brands, create drag-and-drop palettes, and never buy the same paint twice. Palette Keeper is now Smarty Paints!
+url: https://palettekeeper.com
 logo: assets/appicon.png
 facebook:
   username: 61555513576494
@@ -12,7 +12,7 @@ facebook:
 # Page content
 
 #page title
-page_title                                : Palette Keeper                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Smarty Paints!                                          # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
 ios_app_id                                : 6472111419                             # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -24,9 +24,9 @@ presskit_download_link                    :                                     
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Palette Keeper                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name                                  : Smarty Paints!                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Search for, learn about, and organize professional watercolor paints
+app_description                           : Real watercolor paints, simplified. <br><br> Browse 3000+ paints, find dupes across brands, create drag-and-drop palettes, and never buy the same paint twice.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -46,11 +46,11 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : I love this app!! It’s so fun to keep track of everything!! 🤩
+  - title                                 : I love this app!! It's so fun to keep track of everything!! 🤩
     description                           : Michelle S.
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
-  - title                                 : I used the app this morning to see if I had a color that matched the one used in the tutorial I was watching. Thankfully I had one that was almost perfect. So it’s a very handy app. 😊 
+  - title                                 : I used the app this morning to see if I had a color that matched the one used in the tutorial I was watching. Thankfully I had one that was almost perfect. So it's a very handy app. 😊 
     description                           : Barbara H.
     fontawesome_icon_name                 : 
 
@@ -58,8 +58,16 @@ features                                  :
     description                           : Tim G. 
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
+  - title                                 : I’ve been struggling to organize and keep quick records of my new paints, in addition to creating a good balanced palette. Trying to do this analog takes SOooo much time. Your app is a big help.
+    description                           : Skyler J.
+    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+
+  - title                                 : oh wow ... I'm really impressed. I always struggle in workshops when they use another brand than me to find the matching color in my brand. THANK YOU 😘🥰😘
+    description                           : Iris S.
+    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+
+  - title                                 : I haven’t found anything anywhere near as good as your app ... the ‘dupe’ function you’ve now added is just brilliant.
+    description                           : Narelle
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
 
 
@@ -69,11 +77,11 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/header.jpg                  # Replace with alternative image path or image URL.
+cover_image                               : assets/header.png                 # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.3
+cover_overlay_transparency                : 0.2
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : white                                     # Set to: blue, black, yellow, coral or white.
 
 body_background_color                     : "#ffffff"
 
