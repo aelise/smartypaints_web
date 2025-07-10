@@ -9,11 +9,14 @@ include_in_footer: true
 <br>
 <br>
 
-### “What do the icons mean?”  
-Professional watercolor paint manufacturers usually publish paint data for each paint they sell. This can include information on degree of lightfastness, granulation, staining, and transparency. It can also include pigment code(s), which are codes describing the ingredient(s) in the paint that create color according to the [International Colour Index](https://colour-index.com/). These paint properties tell you what you need to know about your paint to make beautiful paintings. In contrast, the paint name tells you very little about a paint. This is because the same paint name can vary wildly between brands, with some brands using entirely different pigments resulting in very different hues and other properties. This can be confusing and frustrating for beginners and pros alike.
+### "What do the icons mean?"  
+Professional watercolor paint manufacturers usually publish paint data for each paint they sell. This can include information on degree of lightfastness, granulation, staining, and transparency. It can also include pigment code(s), which are codes describing the ingredient(s) in the paint that create color according to the [International Colour Index](https://colour-index.com/). These paint properties tell you what you need to know about your paint to make beautiful paintings. 
 <br> 
 <br> 
-The Palette Keeper app makes learning about your paints easy. You can search thousands of watercolor paints and quickly compare their properties at a glance, using the paint property icons shown below. 
+In contrast, the paint name tells you very little about a paint. This is because the same paint name can vary wildly between brands, with some brands using entirely different pigments resulting in very different hues and other properties. This can be confusing and frustrating for beginners and pros alike.
+<br> 
+<br> 
+Smarty Paints makes learning about your paints easy. You can search thousands of watercolor paints and quickly compare their properties at a glance, using the paint property icons shown below. 
 <br> 
 <br>
 
@@ -129,29 +132,29 @@ The manufacturer or brand name of the paint.
     W&N Cotman: WNC
 <br> <br>
 
-### “How do I add a paint to a palette?”
-There are two ways to add paint to a palette in the Palette Keeper app. The first way is to click on a paint from the home screen, which takes you to the paint details page. From here, scroll down until you see the “Add paint to palette” button and the palette selector drop down menu. Select a palette and then click the “Add paint to palette” button. You should see the palette appear in the “In Palettes” section. 
-<br><br>    
-A faster way to add paints to a palette is the bulk add method. From the home screen, click the palette icon in the lower right corner. A dialog will appear with instructions for how to add paints to a palette from the home screen. Select a palette to add to from the drop down menu and the dialog will close. You can then add paints to the selected palette by using the ‘+’ icon in the top right of each paint swatch on the home screen. 
+### "How do I add a paint to a palette?"
+There are two ways to add paint to a palette in Smarty Paints. The first way is to click on a paint from the home screen, which takes you to the paint details page. From here, scroll down until you see the "Add paint to palette" button and the palette selector drop down menu. Select a palette and then click the "Add paint to palette" button. You should see the palette appear in the "In Palettes" section. 
+<br>   
+A faster way to add paints to a palette is the bulk add method. From the home screen, click the palette icon in the lower right corner. A dialog will appear with instructions for how to add paints to a palette from the home screen. Select a palette to add to from the drop down menu and the dialog will close. You can then add paints to the selected palette by using the '+' icon in the top right of each paint swatch on the home screen. 
 <br> <br> 
 
-### “How can I organize my palette?” 
-Drag and drop! Use the ‘=’ icon at the top of each paint swatch to grab the swatch and drag it to a new position on the palette grid. See the video at [palettekeeper.com](http://palettekeeper.com) for an example. 
+### "How can I organize my palette?" 
+Drag and drop! Use the '=' icon at the top of each paint swatch to grab the swatch and drag it to a new position on the palette grid. See the video at [smartypaints.app](https://smartypaints.app) for an example. 
 <br>  <br> 
 
-### “My palettes are listed in alphabetical order, can I change that?”
-Palettes are organized in alphanumeric order. If you’d like to change the order of your palettes, prefix the palette name with a number in the order you’d like it to appear. Tip: you can use emojis, too! 
+### "My palettes are listed in alphabetical order, can I change that?"
+Palettes are organized in alphanumeric order. If you'd like to change the order of your palettes, prefix the palette name with a number in the order you'd like it to appear. Tip: you can use emojis, too! 
 <br>  <br> 
 
-### “My favorite paints aren’t in the database, will they be added?”
+### "My favorite paints aren't in the database, will they be added?"
 If you see paints missing from the database, please let us know! We love hearing from users at contact @ neuralappworks.com.
 <br> <br> 
 
-### “I found an error in the database!”
-Please let us know! There is a text link at the bottom of each Paint Details screen that says “See something wrong?”. That link will bring up a brief form for you to fill out. Submitting it will send us a detailed alert about which paint needs updating. You can also send us a heads up at contact @ neuralappworks.com
+### "I found an error in the database!"
+Please let us know! There is a text link at the bottom of each Paint Details screen that says "See something wrong?" . That link will bring up a brief form for you to fill out. Submitting it will send us a detailed alert about which paint needs updating. You can also send us a heads up at contact @ neuralappworks.com
 <br> <br> 
 
-### “Can I automatically sync my palettes to other devices?”
-This is not currently a feature of the palette keeper app.
+### "Can I automatically sync my palettes to other devices?"
+This is not currently a feature of Smarty Paints, but it is in development. Stay tuned!
 <br> 
 <br><br>
