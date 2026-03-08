@@ -1,9 +1,9 @@
-# Groutr App Homepage
-**The ultimate grout color simulator for artists**
+# Smarty Paints Website
+**Landing page for the Smarty Paints watercolor app**
 
 Includes links to the app stores and a video demo. 
 
-https://groutr.app/
+https://smartypaints.app/
 
 
 

@@ -6,12 +6,12 @@ include_in_footer: true
 ---
 
 **Last updated**  
-February 12, 2023 
+March 8, 2026 
 
 # Privacy Policy
 This privacy notice for Neural Appworks, LLC ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
 
-* Download and use our mobile application (Palette Keeper), or any other application of ours that links to this privacy notice
+* Download and use our mobile application (Smarty Paints!, formerly Palette Keeper), or any other application of ours that links to this privacy notice
 
 * Engage with us in other related ways, including any sales, marketing, or events
 

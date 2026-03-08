@@ -1,8 +1,8 @@
 # SEO content
 
-title : Smarty Paints! - The Watercolor App
-tagline: Real watercolor paints, simplified - track what you own, find close-enough dupes, and finally remember which blue is *that* blue  
-description: Browse 3000+ paints, find dupes across brands, create drag-and-drop palettes, and never buy the same paint twice. Palette Keeper is now Smarty Paints!
+title : Smarty Paints! - Watercolor Discovery & Palette Organizer
+tagline: Discover 3000+ real watercolor paints, organize drag-and-drop palettes, and find close-enough dupes when tutorials use different colors.  
+description: Track what you own, map physical palettes, compare paint properties at a glance, and find close-enough dupes or tutorial-ready alternatives without buying every paint on a supply list.
 url: https://smartypaints.app
 logo: assets/appicon.png
 facebook:
@@ -26,7 +26,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Smarty Paints!                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Real watercolor paints, simplified. <br><br> Browse 3000+ paints, find dupes across brands, create drag-and-drop palettes, and never buy the same paint twice.
+app_description                           : Discover and organize real watercolor paints with visual drag-and-drop palettes that mirror your physical setup. <br><br> Track inventory and wishlists, compare paint properties at a glance, and find close-enough dupes or tutorial matches using paints you already own.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 

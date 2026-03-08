@@ -39,11 +39,12 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
+	grid-template-rows: 115px 876px auto auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
+		"m m m m m m m m m m m m"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -56,7 +57,7 @@
 @media only screen and (max-width: 768px) {
 
 	.container {					// Set up the container for the site content
-		grid-template-rows: 80px 811px auto auto;
+		grid-template-rows: 80px 811px auto auto auto;
 	}
 }
 
@@ -65,11 +66,12 @@
 	.container {
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
+		grid-template-rows: 115px auto auto auto auto auto;
 		grid-template-areas: 
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
+			"m m m m m m m m m m m m"
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
 	}
@@ -408,6 +410,91 @@ nav > ul li a:active {
 	height: 755px;
 }
 
+
+// Value content
+
+.valueContent {
+	grid-area: m;
+	margin-top: 60px;
+}
+
+.valueContentIntro {
+	max-width: 900px;
+}
+
+.valueContentIntro > h2 {
+	color: $feature-title-color;
+}
+
+.valueContentIntro > p {
+	color: $feature-text-color;
+	line-height: 1.6;
+	margin-top: 12px;
+}
+
+.valueCards {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 32px;
+	gap: 24px;
+}
+
+.valueCard {
+	flex: 1 1 calc((100% - 48px) / 3);
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 14px;
+	padding: 24px;
+	background-color: #fff;
+}
+
+.valueCard > h3 {
+	color: $feature-title-color;
+	font-size: 2rem;
+	line-height: 1.35;
+}
+
+.valueCard > p {
+	color: $feature-text-color;
+	margin-top: 12px;
+	line-height: 1.6;
+}
+
+.outcomeBand {
+	margin-top: 28px;
+	padding: 24px;
+	border-radius: 14px;
+	background-color: rgba($feature-icons-background-color, 0.45);
+}
+
+.outcomeBand > h3 {
+	color: $feature-title-color;
+}
+
+.outcomeBand > ul {
+	margin-top: 12px;
+	padding-left: 22px;
+	color: $feature-text-color;
+}
+
+.outcomeBand > ul > li + li {
+	margin-top: 8px;
+}
+
+@media only screen and (max-width: 992px) {
+	.valueContent {
+		margin-top: 16px;
+	}
+
+	.valueCards {
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.valueCard {
+		flex-basis: 100%;
+	}
+}
+
 @media only screen and (max-width: 1070px) {
 
 	.iphonePreview {
@@ -469,17 +556,31 @@ nav > ul li a:active {
 } 
 
 
-// Feature List
+// Feature List / Social proof
+
+.featureSection {
+	grid-area: c;
+	margin-top: 72px;
+}
+
+.featureSectionHeader > h2 {
+	color: $feature-title-color;
+}
+
+.featureSectionHeader > p {
+	color: $feature-text-color;
+	margin-top: 8px;
+	line-height: 1.6;
+}
 
 .features {
-	grid-area: c;
 	display: flex;
 	flex: 0 1 auto;
 	align-content: flex-start;
 	justify-content: flex-start;
 	flex-grow: 1;
 	flex-wrap: wrap;
-	margin-top: 93px;
+	margin-top: 36px;
 }
 
 .feature {
@@ -538,7 +639,7 @@ nav > ul li a:active {
 		flex-grow: 1;
 		flex-direction: row;
 		flex-wrap: wrap;
-		margin-top: 11px;
+		margin-top: 20px;
 	}
 
 	.feature {
