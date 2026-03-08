@@ -1,7 +1,7 @@
 # SEO content
 
 title : "Smarty Paints! - Watercolor Paints, Simplified"
-tagline: "Track what you own, map your real palette, and find close-enough dupes for any class or tutorial."
+tagline: "Track your stash. Map your real palette. Find close-enough dupes for any class or tutorial."
 description: "Watercolor paints, simplified: discover 3000+ paints, organize drag-and-drop palettes, and follow tutorials with paints you already own."
 url: https://smartypaints.app
 logo: assets/appicon.png
@@ -26,7 +26,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Smarty Paints!                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Watercolor paints, simplified. <br><br> Track your stash, map your real palette, and find close-enough dupes for classes and tutorials.
+app_description                           : Watercolor paints, simplified. <br><br> Track your stash. Map your real palette. Find close-enough dupes for classes and tutorials.
 
 # Optional custom graphics for homepage story cards (recommended: 1200x900, 4:3)
 # Use local files, e.g. assets/graphics/discover.png

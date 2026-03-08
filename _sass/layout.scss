@@ -248,7 +248,7 @@ nav > ul li a:active {
 	grid-area: i;
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 140px;
+	padding-top: 118px;
 	align-content: flex-start;
 }
 
@@ -383,31 +383,31 @@ nav > ul li a:active {
 .iphonePreview {
 	grid-area: p;
 	background-image: url($device-color);
-	background-size: 400px auto;
+	background-size: 346px auto;
 	background-repeat: no-repeat;
-	margin-top: 68px;
+	margin-top: 86px;
 }
 
 .iphoneScreen {
-	width: 349px;
+	width: 302px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: 26px;
-	margin-top: 23px;
+	margin-left: 22px;
+	margin-top: 19px;
 }
 
 .videoContainer {
-	width: 349px;
-	height: 755px;
+	width: 302px;
+	height: 653px;
 	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: 26px;
-	margin-top: 23px;
+	margin-left: 22px;
+	margin-top: 19px;
 }
 
 .videoContainer > video {
-	width: 349px;
-	height: 755px;
+	width: 302px;
+	height: 653px;
 }
 
 
@@ -415,57 +415,65 @@ nav > ul li a:active {
 
 .valueContent {
 	grid-area: m;
-	margin-top: 60px;
+	margin-top: 86px;
 }
 
 .valueContentIntro {
-	max-width: 760px;
+	max-width: 860px;
 }
 
 .valueEyebrow {
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	font-weight: 700;
-	letter-spacing: 0.08em;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: rgba($feature-title-color, 0.68);
-	margin-bottom: 8px;
+	margin-bottom: 14px;
 }
 
 .valueContentIntro > h2 {
 	color: $feature-title-color;
-	font-size: 4rem;
-	line-height: 1.12;
+	font-size: 6rem;
+	line-height: 1.02;
+	max-width: 12ch;
+}
+
+.valueSubline {
+	margin-top: 18px;
+	font-size: 2.2rem;
+	color: rgba($feature-title-color, 0.62);
+	line-height: 1.3;
 }
 
 .problemChips {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 12px;
-	margin-top: 24px;
+	gap: 10px;
+	margin-top: 20px;
 }
 
 .problemChip {
 	display: inline-flex;
 	align-items: center;
-	gap: 10px;
-	padding: 10px 14px;
+	gap: 8px;
+	padding: 9px 13px;
 	border-radius: 999px;
-	background-color: rgba($feature-icons-background-color, 0.72);
+	background-color: rgba($feature-icons-background-color, 0.65);
 	color: rgba($feature-title-color, 0.9);
-	font-weight: 600;
-	font-size: 1.5rem;
+	font-weight: 700;
+	font-size: 1.4rem;
 }
 
 .problemChip i {
 	color: rgba($feature-title-color, 0.7);
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 
 .visualCards {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 20px;
-	margin-top: 26px;
+	gap: 28px;
+	margin-top: 42px;
 }
 
 .visualCard {
@@ -477,7 +485,9 @@ nav > ul li a:active {
 }
 
 .visualCardTop {
-	padding: 20px 18px 14px 18px;
+	padding: 24px 20px 18px 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .visualKicker {
@@ -491,8 +501,10 @@ nav > ul li a:active {
 
 .visualCardTop > h3 {
 	color: $feature-title-color;
-	font-size: 2.6rem;
-	line-height: 1.2;
+	font-size: 3.4rem;
+	line-height: 1.06;
+	max-width: 10ch;
+	min-height: 4.3em;
 }
 
 .visualMedia {
@@ -502,14 +514,14 @@ nav > ul li a:active {
 .visualMedia > img {
 	display: block;
 	width: 100%;
-	height: 340px;
+	height: 320px;
 	object-fit: cover;
 	object-position: center center;
 }
 
 .graphicPlaceholder {
-	height: 340px;
-	padding: 18px 18px 14px;
+	height: 320px;
+	padding: 20px 18px 16px;
 	display: flex;
 	flex-direction: column;
 	border-top: 1px solid rgba(255, 255, 255, 0.35);
@@ -527,10 +539,10 @@ nav > ul li a:active {
 
 .graphicTitle {
 	margin-top: 10px;
-	font-size: 2rem;
-	line-height: 1.25;
+	font-size: 2.2rem;
+	line-height: 1.12;
 	font-weight: 700;
-	max-width: 28ch;
+	max-width: 11ch;
 }
 
 .graphicDiscover {
@@ -621,9 +633,9 @@ nav > ul li a:active {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	padding: 8px 12px;
+	padding: 7px 10px;
 	border-radius: 9px;
-	font-size: 1.4rem;
+	font-size: 1.3rem;
 	font-weight: 700;
 }
 
@@ -642,36 +654,18 @@ nav > ul li a:active {
 	color: #93551d;
 }
 
-.quickWins {
-	display: grid;
-	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 12px;
-	margin-top: 18px;
-}
-
-.quickWin {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-	padding: 12px 14px;
-	border-radius: 12px;
-	background-color: rgba($feature-icons-background-color, 0.45);
-	color: rgba($feature-title-color, 0.9);
-	font-weight: 600;
-	font-size: 1.65rem;
-}
-
-.quickWin i {
-	color: rgba($feature-title-color, 0.72);
-}
-
 @media only screen and (max-width: 992px) {
 	.valueContent {
-		margin-top: 16px;
+		margin-top: 28px;
 	}
 
 	.valueContentIntro > h2 {
-		font-size: 3.1rem;
+		font-size: 4.3rem;
+		max-width: none;
+	}
+
+	.valueSubline {
+		font-size: 1.9rem;
 	}
 
 	.problemChips {
@@ -687,42 +681,38 @@ nav > ul li a:active {
 		gap: 16px;
 	}
 
+	.visualCardTop > h3 {
+		min-height: auto;
+	}
+
 	.graphicPlaceholder,
 	.visualMedia > img {
-		height: 280px;
-	}
-
-	.quickWins {
-		grid-template-columns: 1fr;
-	}
-
-	.quickWin {
-		font-size: 1.55rem;
+		height: 265px;
 	}
 }
 
 @media only screen and (max-width: 1070px) {
 
 	.iphonePreview {
-		background-size: 370px auto;
+		background-size: 320px auto;
 	}
 
 	.iphoneScreen {
-		width: 322px;
-		margin-left: 24px;
-		margin-top: 22px;
+		width: 280px;
+		margin-left: 20px;
+		margin-top: 18px;
 	}
 
 	.videoContainer {
-		width: 322px;
-		height: 698px;
-		margin-left: 24px;
-		margin-top: 22px;
+		width: 280px;
+		height: 607px;
+		margin-left: 20px;
+		margin-top: 18px;
 	}
 	
 	.videoContainer > video {
-		width: 322px;
-		height: 698px;
+		width: 280px;
+		height: 607px;
 	}
 	
 } 
@@ -766,7 +756,7 @@ nav > ul li a:active {
 
 .featureSection {
 	grid-area: c;
-	margin-top: 72px;
+	margin-top: 118px;
 }
 
 .featureSectionHeader > h2 {
