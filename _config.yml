@@ -1,8 +1,8 @@
 # SEO content
 
-title : Smarty Paints! - Watercolor Discovery & Palette Organizer
-tagline: Discover 3000+ real watercolor paints, organize drag-and-drop palettes, and find close-enough dupes when tutorials use different colors.  
-description: Track what you own, map physical palettes, compare paint properties at a glance, and find close-enough dupes or tutorial-ready alternatives without buying every paint on a supply list.
+title : "Smarty Paints! - Watercolor Paints, Simplified"
+tagline: "Track what you own, map your real palette, and find close-enough dupes for any class or tutorial."
+description: "Watercolor paints, simplified: discover 3000+ paints, organize drag-and-drop palettes, and follow tutorials with paints you already own."
 url: https://smartypaints.app
 logo: assets/appicon.png
 facebook:
@@ -26,7 +26,15 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Smarty Paints!                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Discover and organize real watercolor paints with visual drag-and-drop palettes that mirror your physical setup. <br><br> Track inventory and wishlists, compare paint properties at a glance, and find close-enough dupes or tutorial matches using paints you already own.
+app_description                           : Watercolor paints, simplified. <br><br> Track your stash, map your real palette, and find close-enough dupes for classes and tutorials.
+
+# Optional custom graphics for homepage story cards (recommended: 1200x900, 4:3)
+# Use local files, e.g. assets/graphics/discover.png
+# Keep key subject in the center 70% of the image (cards are responsive and crop at smaller widths).
+# See GRAPHICS_BRIEF.md for exact content requirements for each slot.
+feature_graphic_discover                  :
+feature_graphic_organize                  :
+feature_graphic_dupe                      :
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 

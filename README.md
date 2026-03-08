@@ -5,6 +5,9 @@ Includes links to the app stores and a video demo.
 
 https://smartypaints.app/
 
+Homepage story-card graphics plan:
+- `GRAPHICS_BRIEF.md`
+
 
 
 
