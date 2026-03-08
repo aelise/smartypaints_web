@@ -16,7 +16,7 @@ This brief defines exactly what to place in each homepage graphic slot used in `
 ## Slot 1 — Discover
 
 - **On-page label + headline:** `DISCOVER` + `Find the paint. Fast.`
-- **Problem fragment it must visually answer:** `Own it?`
+- **Core question the image must answer:** “Do I own this already?”
 - **What to show in the image:**
   - Paint list/grid with varied colors.
   - Search or filter context (brand/pigment/properties) visible.
@@ -26,7 +26,7 @@ This brief defines exactly what to place in each homepage graphic slot used in `
 ## Slot 2 — Organize
 
 - **On-page label + headline:** `ORGANIZE` + `Map your real palette.`
-- **Problem fragment it must visually answer:** `Where is it?`
+- **Core question the image must answer:** “Where is this in my palette?”
 - **What to show in the image:**
   - Palette layout UI with paint wells/cells clearly arranged.
   - Optional drag-and-drop state or reorder affordance.
@@ -36,7 +36,7 @@ This brief defines exactly what to place in each homepage graphic slot used in `
 ## Slot 3 — Paint Smarter
 
 - **On-page label + headline:** `PAINT SMARTER` + `Dupe it. Match it. Keep painting.`
-- **Problem fragment it must visually answer:** `Close-enough match?`
+- **Core question the image must answer:** “What is my close-enough match?”
 - **What to show in the image:**
   - Tutorial paint matching OR dupe comparison UI.
   - Status idea visible (e.g., own / dupe / need).
