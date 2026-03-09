@@ -32,9 +32,9 @@ app_description                           : Watercolor paints, simplified. <br><
 # Use local files, e.g. assets/graphics/discover.png
 # Keep key subject in the center 70% of the image (cards are responsive and crop at smaller widths).
 # See GRAPHICS_BRIEF.md for exact content requirements for each slot.
-feature_graphic_discover                  : assets/graphics/discover.jpeg
-feature_graphic_organize                  : assets/graphics/organize.jpeg
-feature_graphic_dupe                      : assets/graphics/paint_smarter.jpg
+feature_graphic_discover                  : assets/graphics/discover_ai.jpg
+feature_graphic_organize                  : assets/graphics/organize_ai.jpg
+feature_graphic_dupe                      : assets/graphics/paint_smarter_ai.jpg
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
