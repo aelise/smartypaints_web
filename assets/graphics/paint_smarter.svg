@@ -40,9 +40,9 @@
   <rect x="576" y="522" width="88" height="40" rx="20" fill="#eef2f9"/>
   <text x="620" y="548" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#5c6370">Need</text>
   <text x="700" y="548" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#5c6370">Property match ~94%</text>
-  <!-- Hand -->
-  <ellipse cx="520" cy="620" rx="92" ry="50" fill="#1d63ea" opacity="0.14"/>
-  <g transform="translate(420, 520)" stroke="#1a1d24" stroke-width="3" fill="#fff" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Hand toward status row -->
+  <ellipse cx="498" cy="592" rx="36" ry="18" fill="#1d63ea" opacity="0.14"/>
+  <g transform="translate(408, 532) scale(0.38)" stroke="#1a1d24" stroke-width="3" fill="#fff" stroke-linecap="round" stroke-linejoin="round">
     <path d="M8 88c-12-8-10-28 4-36l18-10c8-4 18-2 24 4l6 8"/>
     <path d="M30 54l22-48c6-12 22-16 34-10s16 22 10 34l-18 38"/>
     <path d="M52 46l8-36c4-14 20-22 34-18s22 18 18 32l-12 40"/>
