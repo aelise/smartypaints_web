@@ -8,10 +8,10 @@ This brief defines exactly what to place in each homepage graphic slot used in `
 
 ## Global specs
 
-- **Canvas:** 1200 x 900 px (4:3), PNG or JPG.
+- **Canvas:** 1200 x 900 px (4:3), SVG (preferred for crisp scaling) or PNG/JPG.
 - **Safe zone:** keep important UI in the center 70% (edges may crop on smaller screens).
-- **Style:** clean, bright, app-first, minimal text baked into image.
-- **Rule:** prefer real app UI over decorative overlays.
+- **Style:** clean explainer UI: soft cool-gray background (`#f3f6fc` → `#e8eef8`), white “device” panel, **accent `#1d63ea`** (matches site links), charcoal text `#1a1d24`, muted labels `#8b93a1`. Same structure across all three so they read as one set.
+- **Rule:** simplified, recognizable UI beats photorealism; optional cartoon hand for interaction cues.
 
 ## Slot 1 — Discover
 

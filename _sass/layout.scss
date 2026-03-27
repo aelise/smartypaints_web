@@ -463,10 +463,6 @@ nav > ul li a:active {
 	flex-direction: column;
 }
 
-.visualCard:nth-child(1) { --media-offset: 36px; }
-.visualCard:nth-child(2) { --media-offset: 18px; }
-.visualCard:nth-child(3) { --media-offset: 0px; }
-
 .visualCardTop {
 	padding: 24px 20px 18px 20px;
 	display: flex;
