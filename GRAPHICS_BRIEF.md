@@ -12,6 +12,7 @@ This brief defines exactly what to place in each homepage graphic slot used in `
 - **Safe zone:** keep important UI in the center 70% (edges may crop on smaller screens).
 - **Style:** explainer panels share a **soft lavender → cool blue** page gradient, **white rounded device** card, **accent `#1d63ea`**, charcoal `#1c1f28`, muted `#8b92a3`. **Minimal in-image copy** — one focal action per card (dashed focus ring + short label, or large swatches only).
 - **Rule:** simplified beats literal UI; avoid cramming six tiny cards. Interaction = **focus ring / tap cue**, not a detailed cartoon hand unless illustrated properly.
+- **Replicate (`google/nano-banana-2`):** Homepage JPGs can be regenerated with `scripts/replicate_nano_banana_story_cards.sh` (uses `REPLICATE_API_TOKEN`). To stay faithful to **real app UI**, add screenshots via the Files API and pass URLs in `image_input`; prompt for “keep layout and labels, simplify to explainer style only.” See [input files](https://replicate.com/docs/topics/predictions/input-files).
 
 ## Slot 1 — Discover
 
