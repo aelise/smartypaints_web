@@ -10,8 +10,8 @@ This brief defines exactly what to place in each homepage graphic slot used in `
 
 - **Canvas:** 1200 x 900 px (4:3), SVG (preferred for crisp scaling) or PNG/JPG.
 - **Safe zone:** keep important UI in the center 70% (edges may crop on smaller screens).
-- **Style:** clean explainer UI: soft cool-gray background (`#f3f6fc` → `#e8eef8`), white “device” panel, **accent `#1d63ea`** (matches site links), charcoal text `#1a1d24`, muted labels `#8b93a1`. Same structure across all three so they read as one set.
-- **Rule:** simplified, recognizable UI beats photorealism; optional cartoon hand for interaction cues.
+- **Style:** explainer panels share a **soft lavender → cool blue** page gradient, **white rounded device** card, **accent `#1d63ea`**, charcoal `#1c1f28`, muted `#8b92a3`. **Minimal in-image copy** — one focal action per card (dashed focus ring + short label, or large swatches only).
+- **Rule:** simplified beats literal UI; avoid cramming six tiny cards. Interaction = **focus ring / tap cue**, not a detailed cartoon hand unless illustrated properly.
 
 ## Slot 1 — Discover
 

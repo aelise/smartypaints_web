@@ -1,68 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-labelledby="discoverTitle">
-  <title id="discoverTitle">Stylized Smarty Paints discover screen with search and paint grid</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-labelledby="t">
+  <title id="t">Explainer: search and browse paints in Smarty Paints</title>
   <defs>
-    <linearGradient id="discBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f3f6fc"/>
-      <stop offset="100%" stop-color="#e8eef8"/>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ede8ff"/>
+      <stop offset="55%" stop-color="#f4f6ff"/>
+      <stop offset="100%" stop-color="#e8f0ff"/>
     </linearGradient>
-    <filter id="discShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#1d63ea" flood-opacity="0.08"/>
+    <filter id="sh" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="28" flood-color="#1d63ea" flood-opacity="0.09"/>
     </filter>
+    <linearGradient id="sw1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2a4a6e"/><stop offset="100%" stop-color="#1a3355"/></linearGradient>
+    <linearGradient id="sw2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#5a8fd4"/><stop offset="100%" stop-color="#3d6eb8"/></linearGradient>
+    <linearGradient id="sw3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#4a6fa8"/><stop offset="100%" stop-color="#2d5080"/></linearGradient>
+    <linearGradient id="sw4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8eb8e8"/><stop offset="100%" stop-color="#6a9fd4"/></linearGradient>
   </defs>
-  <rect width="1200" height="900" fill="url(#discBg)"/>
-  <!-- Device frame -->
-  <g filter="url(#discShadow)">
-    <rect x="220" y="80" width="760" height="740" rx="36" fill="#ffffff" stroke="rgba(29,99,234,0.12)" stroke-width="2"/>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <!-- App panel -->
+  <g filter="url(#sh)">
+    <rect x="230" y="72" width="740" height="756" rx="40" fill="#ffffff" stroke="rgba(29,99,234,0.11)" stroke-width="2"/>
   </g>
-  <!-- Status / nav strip -->
-  <rect x="260" y="120" width="680" height="52" rx="14" fill="#fafbfe"/>
-  <text x="288" y="154" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#1a1d24">Paints</text>
-  <rect x="620" y="128" width="280" height="36" rx="18" fill="#e8f0ff"/>
-  <text x="640" y="152" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="600" fill="#1d63ea">All brands</text>
+  <!-- Top bar -->
+  <text x="278" y="138" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="800" fill="#1c1f28">Paints</text>
+  <rect x="720" y="108" width="200" height="40" rx="20" fill="#e8f0ff"/>
+  <text x="820" y="134" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#1d63ea">All brands</text>
   <!-- Search -->
-  <rect x="260" y="192" width="680" height="56" rx="18" fill="#ffffff" stroke="#1d63ea" stroke-width="3"/>
-  <circle cx="296" cy="220" r="10" fill="none" stroke="#1d63ea" stroke-width="2.5"/>
-  <line x1="304" y1="228" x2="314" y2="238" stroke="#1d63ea" stroke-width="2.5" stroke-linecap="round"/>
-  <text x="332" y="232" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="600" fill="#1a1d24">Prussian</text>
-  <text x="820" y="232" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600" fill="#8b93a1">3,000+ paints</text>
-  <!-- Filter chips -->
-  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600">
-    <rect x="260" y="264" width="88" height="34" rx="17" fill="#1d63ea"/>
-    <text x="304" y="286" text-anchor="middle" fill="#ffffff">Pigment</text>
-    <rect x="360" y="264" width="72" height="34" rx="17" fill="#eef2f9" stroke="rgba(0,0,0,0.06)"/>
-    <text x="396" y="286" text-anchor="middle" fill="#5c6370">Brand</text>
-    <rect x="444" y="264" width="96" height="34" rx="17" fill="#eef2f9" stroke="rgba(0,0,0,0.06)"/>
-    <text x="492" y="286" text-anchor="middle" fill="#5c6370">Opacity</text>
+  <rect x="278" y="168" width="644" height="58" rx="29" fill="#fff" stroke="#1d63ea" stroke-width="2.5"/>
+  <circle cx="314" cy="197" r="11" fill="none" stroke="#1d63ea" stroke-width="2.5"/>
+  <line x1="322" y1="205" x2="332" y2="215" stroke="#1d63ea" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="352" y="206" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="19" font-weight="600" fill="#3a4150">Prussian blue…</text>
+  <!-- Chips -->
+  <rect x="278" y="248" width="96" height="36" rx="18" fill="#1d63ea"/>
+  <text x="326" y="272" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#fff">Pigment</text>
+  <rect x="386" y="248" width="82" height="36" rx="18" fill="#f0f2f8" stroke="rgba(0,0,0,0.06)"/>
+  <text x="427" y="272" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6b7280">Brand</text>
+  <rect x="480" y="248" width="90" height="36" rx="18" fill="#f0f2f8" stroke="rgba(0,0,0,0.06)"/>
+  <text x="525" y="272" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="600" fill="#6b7280">Series</text>
+  <!-- 2x2 cards: big swatches, short labels -->
+  <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <rect x="278" y="312" width="300" height="168" rx="22" fill="#fafbff" stroke="rgba(0,0,0,0.05)"/>
+    <rect x="298" y="332" width="120" height="88" rx="16" fill="url(#sw1)"/>
+    <text x="298" y="452" font-size="16" font-weight="800" fill="#1c1f28">Prussian</text>
+    <text x="298" y="472" font-size="12" font-weight="600" fill="#8b92a3">PB27</text>
+    <rect x="598" y="312" width="300" height="168" rx="22" fill="#fafbff" stroke="rgba(0,0,0,0.05)"/>
+    <rect x="618" y="332" width="120" height="88" rx="16" fill="url(#sw2)"/>
+    <text x="618" y="452" font-size="16" font-weight="800" fill="#1c1f28">Phthalo</text>
+    <text x="618" y="472" font-size="12" font-weight="600" fill="#8b92a3">PB15</text>
+    <rect x="278" y="498" width="300" height="168" rx="22" fill="#fafbff" stroke="rgba(0,0,0,0.05)"/>
+    <rect x="298" y="518" width="120" height="88" rx="16" fill="url(#sw3)"/>
+    <text x="298" y="638" font-size="16" font-weight="800" fill="#1c1f28">Indigo</text>
+    <rect x="598" y="498" width="300" height="168" rx="22" fill="#fafbff" stroke="#1d63ea" stroke-width="3"/>
+    <rect x="618" y="518" width="120" height="88" rx="16" fill="url(#sw4)"/>
+    <text x="618" y="638" font-size="16" font-weight="800" fill="#1c1f28">Cerulean</text>
+    <text x="618" y="658" font-size="12" font-weight="600" fill="#8b92a3">PB35</text>
   </g>
-  <!-- Paint grid -->
-  <g>
-    <rect x="260" y="324" width="208" height="112" rx="16" fill="#fafbfe" stroke="rgba(0,0,0,0.06)"/>
-    <rect x="276" y="340" width="72" height="48" rx="10" fill="#1e3a5f"/>
-    <text x="284" y="412" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1a1d24">Prussian</text>
-    <text x="284" y="428" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#8b93a1">PB27</text>
-    <rect x="496" y="324" width="208" height="112" rx="16" fill="#fafbfe" stroke="rgba(0,0,0,0.06)"/>
-    <rect x="512" y="340" width="72" height="48" rx="10" fill="#4a7ab8"/>
-    <text x="520" y="412" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1a1d24">Phthalo</text>
-    <rect x="732" y="324" width="208" height="112" rx="16" fill="#fafbfe" stroke="rgba(0,0,0,0.06)"/>
-    <rect x="748" y="340" width="72" height="48" rx="10" fill="#2d4f7c"/>
-    <text x="756" y="412" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1a1d24">Indigo</text>
-    <rect x="260" y="452" width="208" height="112" rx="16" fill="#fafbfe" stroke="rgba(0,0,0,0.06)"/>
-    <rect x="276" y="468" width="72" height="48" rx="10" fill="#6b8cae"/>
-    <text x="284" y="540" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1a1d24">Cerulean</text>
-    <rect x="496" y="452" width="208" height="112" rx="16" fill="#fafbfe" stroke="rgba(0,0,0,0.06)"/>
-    <rect x="512" y="468" width="72" height="48" rx="10" fill="#3d6ea5"/>
-    <text x="520" y="540" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1a1d24">Ultramarine</text>
-    <rect x="732" y="452" width="208" height="112" rx="16" fill="#fafbfe" stroke="rgba(0,0,0,0.06)"/>
-    <rect x="748" y="468" width="72" height="48" rx="10" fill="#8cb4d9"/>
-    <text x="756" y="540" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1a1d24">Cobalt</text>
-  </g>
-  <!-- Hand + glow -->
-  <ellipse cx="900" cy="200" rx="90" ry="48" fill="#1d63ea" opacity="0.14"/>
-  <g transform="translate(820, 140)" stroke="#1a1d24" stroke-width="3" fill="#fff" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M8 88c-12-8-10-28 4-36l18-10c8-4 18-2 24 4l6 8"/>
-    <path d="M30 54l22-48c6-12 22-16 34-10s16 22 10 34l-18 38"/>
-    <path d="M52 46l8-36c4-14 20-22 34-18s22 18 18 32l-12 40"/>
-    <path d="M78 44l4-28c2-12 16-20 28-16s18 16 16 28l-6 32"/>
-    <path d="M12 88c-4 18 8 36 26 40h32l48-4c10-2 18-10 20-20l8-36"/>
-  </g>
+  <!-- Focus: pick from results -->
+  <rect x="586" y="486" width="324" height="192" rx="26" fill="none" stroke="#1d63ea" stroke-width="3" stroke-dasharray="12 10" opacity="0.85"/>
+  <circle cx="618" cy="518" r="7" fill="#1d63ea"/>
+  <text x="618" y="702" text-anchor="middle" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#1d63ea">Pick a result</text>
 </svg>
