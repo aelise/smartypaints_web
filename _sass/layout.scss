@@ -384,8 +384,7 @@ $card-radius: 18px;
 .feature-phone-frame img {
     display: block;
     width: 100%;
-    height: calc(100% - 20px);
-    margin-top: 20px;
+    height: 100%;
     object-fit: cover;
     object-position: center top;
 }
