@@ -389,6 +389,10 @@ $card-radius: 18px;
     object-position: center top;
 }
 
+.feature-phone-frame--tall {
+    height: 534px;
+}
+
 @media (max-width: 768px) {
     .feature-row-inner {
         grid-template-columns: 1fr;
@@ -409,6 +413,10 @@ $card-radius: 18px;
         height: 440px;
         border-radius: 28px;
         border-width: 4px;
+    }
+
+    .feature-phone-frame--tall {
+        height: 452px;
     }
 
     .feature-phone-frame::before {
