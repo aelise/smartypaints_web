@@ -21,7 +21,7 @@ Smarty Paints makes learning about your paints easy. You can search thousands of
 <br>
 
 **Lightfastness**:
-The degree to which a paint retains it’s color over time when exposed to light. 
+The degree to which a paint retains its color over time when exposed to light. 
 
     Excellent: \|
 
@@ -78,6 +78,8 @@ The manufacturer or brand name of the paint.
     A. Gallo: AG
     
     Art Spectrum: AS
+
+    Beam Paints: BP
     
     Daler Rowney Pro: DR
     
@@ -94,6 +96,8 @@ The manufacturer or brand name of the paint.
     Holbein: H
     
     Isaro: I
+
+    Kuretake Gansai Tambi: KT
     
     Lukas Aquarell 1862: LA
     
@@ -133,9 +137,9 @@ The manufacturer or brand name of the paint.
 <br> <br>
 
 ### "How do I add a paint to a palette?"
-There are two ways to add paint to a palette in Smarty Paints. The first way is to click on a paint from the home screen, which takes you to the paint details page. From here, scroll down until you see the palette checkboxes. Each checkbox represents one of your palettes. Check a box to add the paint, uncheck to remove it.
+There are two ways to add paint to a palette in Smarty Paints. The first way is to tap on a paint from the home screen, which takes you to the paint details page. From here, scroll down until you see the palette checkboxes. Each checkbox represents one of your palettes. Check a box to add the paint, uncheck to remove it.
 <br>   
-A faster way to add paints to a palette is the bulk add method. From the home screen, click the palette icon in the lower right corner. A dialog will appear with instructions for how to add paints to a palette from the home screen. Select a palette to add to from the drop down menu and the dialog will close. You can then add paints to the selected palette by using the '+' icon in the top right of each paint swatch on the home screen. 
+A faster way to add paints to a palette is the bulk add method. From the home screen, tap the palette icon in the lower right corner. A dialog will appear with instructions for how to add paints to a palette from the home screen. Select a palette to add to from the drop down menu and the dialog will close. You can then add paints to the selected palette by using the '+' icon in the top right of each paint swatch on the home screen. 
 <br> <br> 
 
 ### "How can I organize my palette?" 
@@ -151,7 +155,7 @@ Smarty Paints is powered by user contributions to the database. It's a labor of 
 <br> <br> 
 
 ### "I found an error in the database!"
-Dang, eagle eyes! Good looking out. There is a text link at the bottom of each Paint Details screen that says "See something wrong?" . That link will bring up a brief form for you to fill out. Submitting it will send a detailed alert about which paint needs updating. You can also reach out at contact @ neuralappworks.com
+Dang, eagle eyes! Good looking out. There is a text link at the bottom of each Paint Details screen that says "See something wrong?". That link will bring up a brief form for you to fill out. Submitting it will send a detailed alert about which paint needs updating. You can also reach out at contact @ neuralappworks.com
 <br> <br> 
 
 ### "Can I automatically sync my palettes to other devices?"
