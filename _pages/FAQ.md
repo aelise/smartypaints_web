@@ -133,13 +133,13 @@ The manufacturer or brand name of the paint.
 <br> <br>
 
 ### "How do I add a paint to a palette?"
-There are two ways to add paint to a palette in Smarty Paints. The first way is to click on a paint from the home screen, which takes you to the paint details page. From here, scroll down until you see the "Add paint to palette" button and the palette selector drop down menu. Select a palette and then click the "Add paint to palette" button. You should see the palette appear in the "In Palettes" section. 
+There are two ways to add paint to a palette in Smarty Paints. The first way is to click on a paint from the home screen, which takes you to the paint details page. From here, scroll down until you see the palette checkboxes. Each checkbox represents one of your palettes. Check a box to add the paint, uncheck to remove it.
 <br>   
 A faster way to add paints to a palette is the bulk add method. From the home screen, click the palette icon in the lower right corner. A dialog will appear with instructions for how to add paints to a palette from the home screen. Select a palette to add to from the drop down menu and the dialog will close. You can then add paints to the selected palette by using the '+' icon in the top right of each paint swatch on the home screen. 
 <br> <br> 
 
 ### "How can I organize my palette?" 
-Drag and drop! Use the '=' icon at the top of each paint swatch to grab the swatch and drag it to a new position on the palette grid. See the video at [smartypaints.app](https://smartypaints.app) for an example. 
+Drag and drop! Long press any paint swatch to grab it, then drag it to a new position on the palette grid.
 <br>  <br> 
 
 ### "My palettes are listed in alphabetical order, can I change that?"
@@ -147,14 +147,14 @@ Palettes are organized in alphanumeric order. If you'd like to change the order 
 <br>  <br> 
 
 ### "My favorite paints aren't in the database, will they be added?"
-If you see paints missing from the database, please let us know! We love hearing from users at contact @ neuralappworks.com.
+Smarty Paints is powered by user contributions to the database. It's a labor of love and you can help! Send your additions to contact @ neuralappworks.com or try out the new "add paint" workflow in the app. If you can't find the paint you're looking for in a search, there will be an "add paint" button as the first search result. Click that, and either manually input paint details or automatically detect them from photos of the paint tube. Your custom paints are initially only available to you, but will be reviewed for accuracy and if a good fit, shared with the whole community.
 <br> <br> 
 
 ### "I found an error in the database!"
-Please let us know! There is a text link at the bottom of each Paint Details screen that says "See something wrong?" . That link will bring up a brief form for you to fill out. Submitting it will send us a detailed alert about which paint needs updating. You can also send us a heads up at contact @ neuralappworks.com
+Dang, eagle eyes! Good looking out. There is a text link at the bottom of each Paint Details screen that says "See something wrong?" . That link will bring up a brief form for you to fill out. Submitting it will send a detailed alert about which paint needs updating. You can also reach out at contact @ neuralappworks.com
 <br> <br> 
 
 ### "Can I automatically sync my palettes to other devices?"
-This is not currently a feature of Smarty Paints, but it is in development. Stay tuned!
+Sync is available for paid users. After upgrading, head to Settings to create a Smarty Paints account. Once your account is set up, your palettes will sync automatically across devices.
 <br> 
 <br><br>
